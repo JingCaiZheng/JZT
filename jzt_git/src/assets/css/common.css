@@ -1,0 +1,335 @@
+html
+{
+color:#000;
+background:#FFF;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td
+{
+margin:0;padding:0;
+}
+table /* 设置table 的样式*/
+{
+border-collapse:collapse;
+border-spacing:0;
+}
+fieldset, img
+{
+border:0;
+}
+em, strong
+{
+font-style:normal;
+font-weight:normal;
+}
+li
+{
+list-style:none;
+}
+h1, h2, h3, h4, h5, h6
+{
+font-size:100%;
+font-weight:normal;
+}
+body, input, button, textarea
+{
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+}
+a{ text-decoration:none;outline:none;}
+a:hover{ cursor:pointer;}
+th, td{vertical-align:top;}
+.lf{
+    float: left;
+}
+.rf{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+/* 教程居中*/
+.stl_02{
+    margin:0 auto !important;
+}
+/* 边框样式 */
+.border1{
+    border:2px solid #454241
+}
+.borderred{
+    border:2px solid #fb3838;
+    border-radius: 30% ;
+    width: 15%;
+    padding-bottom: 15%;
+}
+/*背景色 */
+.bge7f5fd{
+    background:#e7f5fd !important;
+}
+.bgfff{
+    background:#fff !important;
+}
+/*清除ElementUI默认的边距*/
+.c-el-padding{
+    margin:0;
+    padding:0;
+}
+.img-half-p5{
+    display: inline-block;
+    margin:0 auto;
+    max-width:5%;
+}
+.img-half-p6{
+    display: inline-block;
+    margin:0 auto;
+    max-width:6%;
+}
+.img-half-p8{
+    display: inline-block;
+    margin:0 auto;
+    max-width:8%;
+}
+.img-half-3{
+    display: inline-block;
+    margin:0 auto;
+    max-width:30%;
+}
+.img-half-4{
+    display: inline-block;
+    margin:0 auto;
+    max-width:40%;
+}
+.img-half-5{
+    display: block;
+    margin:0 auto;
+    max-width:50%;
+}
+.img-half-6{
+    display: block;
+    margin:0 auto;
+    max-width:60%;
+}
+.img-half-8{
+    display: block;
+    margin:0 auto;
+    max-width:80%;
+}
+.margin-top-50{
+    margin-top:50px;
+}
+.margin-btm-50{
+    margin-bottom:50px;
+}
+/* 边距样式 */
+.top5{
+    margin-top:5%;
+}
+.left5{
+    margin-left:5%;
+}
+.top2{
+    margin-top:2%;
+}
+.bottom2{
+    margin-bottom:2%;
+}
+.bottom5{
+    margin-bottom:5%;
+}
+.pdall3{
+    padding:3%
+}
+.pdtop5{
+    padding-top:5%;
+}
+.pdbtm5{
+    padding-bottom:5%;
+}
+.left2{
+    margin-left:10%;
+}
+.left1{
+    margin-left:5%;
+}
+.inline-block{
+    display: inline-block !important;
+}
+.suojin{
+    text-indent:2em;
+}
+
+/* 大部分字体样式 */
+.fontwords{
+    color:#797979;
+    line-height:2.5vw;
+    font-size: 1.2vw;
+}
+.titlestyle{
+    padding:2% 0 1% 0;
+    font-size:3.5vw;
+    font-weight: blod;
+    color:#727171;
+}
+.font1-2{
+    font-size: 1.2vw !important;
+}
+.hline2-2{
+    line-height: 2.2vw !important;
+}
+.spanfont{
+    font-size: 1.3vw;
+    color: #02a6ea;
+    font-weight:400 
+}
+.fivefonts{
+    font-size: 1.3vw;
+    text-align: left;
+    color:#727171;
+    font-weight:400 
+}
+.pfont{
+    font-size: 1.2vw;            
+    line-height: 3.8vw;
+    text-indent:2em;
+    margin-top:3%;
+    color:#727171;
+}
+.hline4 {
+    line-height: 4vw;
+}
+/* 教程字体样式 */
+.teachwords{
+    color:#454241;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.lteachwords{
+    color:#454241;
+    font-size: .9vw;
+    font-weight: bold;
+}
+.steachwords{
+    color:#454241;
+    font-size: .8vw;
+    font-weight: 400;
+}
+.redwords{
+    color:#fb3838;
+    font-size: 1vw;
+    font-weight: 400;
+}
+.infowords{
+    font-size:.9vw;
+    color:#00aaeb;
+    font-weight: bold;
+}
+.stepwords{
+    color:#414099;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .fontwords{
+        line-height:5vw;
+        font-size: 1.1vw;
+    }
+    .teachwords{
+        font-size: 1.1vw;
+    }
+    .stepwords{
+        font-size: 1vw;
+    }
+    .spanfont{
+        font-size: 1.2vw;
+    }
+    .fivefonts{
+        font-size: 1vw;
+    }
+    .pfont{
+        font-size: 1.1vw;            
+        line-height:5vw;
+    }
+    .hline2-2{
+        line-height: 4vw ;
+    }
+    .font1-2{
+        font-size: 1.1vw !important;
+    }
+    .img-half-8{
+        max-width:100%;
+    }
+    .hline2-2{
+        line-height: 3.5vw !important;
+    }
+    .titlestyle{
+        font-size:1.2vw;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .img-half-p8{
+        max-width:5%;
+    }
+}
+/* 自定义定义动画 */
+@-moz-keyframes myrotate{
+    from {
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(720deg)        
+    }
+}
+@-webkit-keyframes myrotate{
+    from {
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(720deg)        
+    }
+}
+@-o-keyframes  myrotate{
+    from {
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(720deg)        
+    }
+}
+@keyframes doudong{
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(0deg)        
+    }
+}
+@keyframes xuanzhuan {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);            
+    }
+}
+/*鼠标移入变大 */
+.imgscale{
+    transition:all .5s linear;
+}
+.imgscale:hover{
+    cursor:pointer;
+    transform:scale(1.1)
+}
+/* 配套父元素溢出影藏 */
+.overflow-hidden{
+    overflow: hidden;
+}
